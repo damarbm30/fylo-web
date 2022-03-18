@@ -46,29 +46,29 @@ export default function Footer() {
             <div className="footer-columns">
               <ul>
                 <li>
-                  <a href="">About Us</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li>
-                  <a href="">Jobs</a>
+                  <a href="#">Jobs</a>
                 </li>
                 <li>
-                  <a href="">Prices</a>
+                  <a href="#">Prices</a>
                 </li>
                 <li>
-                  <a href="">Blog</a>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
             </div>
             <div className="footer-columns">
               <ul>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="#">Contact Us</a>
                 </li>
                 <li>
-                  <a href="">Terms</a>
+                  <a href="#">Terms</a>
                 </li>
                 <li>
-                  <a href="">Privacy</a>
+                  <a href="#">Privacy</a>
                 </li>
               </ul>
             </div>
