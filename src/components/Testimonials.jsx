@@ -13,7 +13,7 @@ export default function Testimonials() {
             Securely share files and folders with friends, family and colleagues for live
             collaboration. No email attachments required!
           </p>
-          <a href="#">
+          <a href="/#">
             See how Fylo works<i class="fa-solid fa-circle-arrow-right"></i>
           </a>
           <div className="flex-break" />
