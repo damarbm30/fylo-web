@@ -1,0 +1,128 @@
+@import url("../Global.css");
+
+.testimonials {
+  background-color: var(--third);
+  padding: 5em 0;
+  height: 100%;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-container__left {
+  display: flex;
+  flex: 60%;
+  flex-wrap: wrap;
+  padding: 0 10em;
+}
+
+.testimonials-container__left h1 {
+  font-size: var(--fontH1);
+  line-height: 55px;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials-container__left a {
+  color: var(--anchor);
+  font-weight: 700;
+  font-size: var(--fontP);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid var(--anchor);
+  padding-bottom: 0.25em;
+}
+
+.flex-break {
+  width: 100%;
+}
+
+.testimonials-container__left a:hover {
+  color: var(--anchorHover);
+  border-bottom: 2px solid var(--anchorHover);
+}
+
+.testimonials-container__left i {
+  padding-left: 0.25em;
+  width: 20px;
+}
+
+.testimonials-container__left p {
+  font-size: var(--fontP);
+  margin-bottom: 1rem;
+  line-height: 30px;
+}
+
+.testimonials-container__left__card {
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 0 0 12px 0px rgb(219, 219, 219);
+  margin: 1.5rem 0;
+  padding: 2em;
+  width: 80%;
+
+  background-color: white;
+}
+
+.testimonials-container__left__card__content {
+  margin: 1rem 0;
+  font-size: var(--fontP);
+  line-height: 30px;
+}
+
+.testimonials-container__left__card__avatar figure {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.testimonials-container__left__card__avatar figure img {
+  border-radius: 50%;
+  height: 60px;
+}
+
+.testimonials-container__left__card__avatar figure figcaption {
+  padding-left: 1em;
+}
+
+.testimonials-container__left__card__avatar figure figcaption p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.testimonials-container__right {
+  display: flex;
+  flex: 50%;
+  padding: 0 10em;
+}
+
+.testimonials-container__right img {
+  max-width: 100%;
+}
+
+br {
+  content: "";
+  margin: 0.5rem;
+  display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .testimonials-container {
+    flex-direction: column-reverse;
+  }
+
+  .testimonials-container__left {
+    padding: 0 5em;
+  }
+
+  .testimonials-container__right {
+    padding: 0 5em;
+    margin-bottom: 5rem;
+    margin-top: 0;
+  }
+}

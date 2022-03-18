@@ -1,0 +1,123 @@
+@import url("../Global.css");
+
+.main {
+  padding: 15em 0;
+  background-image: url("/public/images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container__left {
+  flex: 50%;
+  padding: 0 10em;
+  color: var(--fontPrimary);
+}
+
+.main-container__left h1 {
+  margin-bottom: 1rem;
+  line-height: 55px;
+  font-size: var(--fontH1);
+}
+
+.main-container__left p {
+  line-height: 30px;
+  font-size: var(--fontP);
+  margin-bottom: 2rem;
+}
+
+.main-container__left__form {
+  display: flex;
+  width: 100%;
+}
+
+.main-container__left__form input {
+  display: flex;
+}
+
+.main-container__left__form button {
+  display: flex;
+}
+
+button {
+  background-color: var(--buttonColor);
+  border: none;
+  padding: 1em 2em;
+  white-space: nowrap;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 16px;
+  box-shadow: 0 0 1.5px 0px rgb(54, 54, 54);
+}
+
+button:hover {
+  background-color: var(--buttonHover);
+}
+
+input {
+  padding: 0 1em;
+  width: 250px;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgb(54, 54, 54);
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttonTop {
+  margin-left: 1rem;
+}
+
+.main-container__right {
+  flex: 50%;
+  padding: 0 5em;
+}
+
+.main-container__right img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+
+  .main-container__left {
+    padding: 0 5em;
+  }
+
+  .main-container__right {
+    padding: 0 5em;
+    margin-bottom: 5rem;
+    margin-top: 0;
+  }
+
+  .main {
+    padding: 10em 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-container__left__form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .buttonTop {
+    margin-left: 0rem;
+    display: flex;
+    margin-top: 1rem;
+  }
+}
