@@ -76,17 +76,17 @@ export default function Footer() {
 
           <div className="footer-columns__social-logo">
             <ul>
-              <a href="">
+              <a href="#">
                 <li>
                   <i class="fa-brands fa-facebook-f"></i>
                 </li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>
                   <i class="fa-brands fa-twitter"></i>
                 </li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>
                   <i class="fa-brands fa-instagram"></i>
                 </li>
